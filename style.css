@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    color: #BADA55;
+}
+
+.header h1 {
+	font: 30px "Verdana";
+    text-decoration: overline;
+}
+
+.components {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.components ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.components li {
+    display: inline-block;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.components li a {
+    text-decoration: none;
+    color: #1890ff;
+    display: block;
+}
+
+.components .icons {
+    width: 100px;
+    height: 100px;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.components li{
+		width: 48%;
+	}
+	.header h1{
+		font-size: 20px;
+	}
+}
